@@ -1,6 +1,6 @@
 ## DECENTRAFUND
 
-<h2>Decentrafund is a decentralized crowdfunding platform built on the Ethereum blockcha<h2>
+<h3>DecentraFund is a decentralized crowdfunding platform built on the Ethereum blockchain<h3>
 
 ![decentrafund](https://user-images.githubusercontent.com/43752457/228524922-1d26656c-3957-48ee-a5c5-166b3ad1c7ad.png)
 
@@ -23,6 +23,14 @@
 - cd into client
 - Run `npm install`
 - Run `npm run dev`
+
+<h3>How to deploy:</h3>
+
+- cd into client
+- Run `npm run build`
+- cd into web3
+- Run `npm run deploy`
+- Use the address of the deployed contract in the hardhat.config.js file
 
 
 
